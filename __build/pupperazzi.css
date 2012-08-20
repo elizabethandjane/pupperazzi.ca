@@ -54,7 +54,7 @@ td{vertical-align:top}
 .clearfix{zoom:1}
 html{background-color:#725f3b}
 body{margin:0 auto;padding:1em 5em 1em 390px;position:relative;width:24em;background-color:#877046;background:-webkit-gradient(linear, right top, left top, color-stop(0, #725f3b), color-stop(0.15, #877046), color-stop(0.85, #877046), color-stop(1, #725f3b));background:-moz-linear-gradient(right, #725f3b 0%, #877046 15%, #877046 85%, #725f3b 100%);background:-ms-linear-gradient(right, #725f3b 0%, #877046 15%, #877046 85%, #725f3b 100%);background:-o-linear-gradient(right, #725f3b 0%, #877046 15%, #877046 85%, #725f3b 100%);background:-webkit-linear-gradient(right, #725f3b 0%, #877046 15%, #877046 85%, #725f3b 100%);background:linear-gradient(right, #725f3b 0%, #877046 15%, #877046 85%, #725f3b 100%);color:#eee8dd;font:normal 100%/1.5 "PT Serif",Georgia,serif}
-h1{margin:.5em auto .6em;height:57px;overflow:hidden;width:360px;background:transparent url("images/pupperazzi.png") no-repeat left top;font:normal 3em/1 sans-serif;text-align:center;text-indent:100%;white-space:nowrap}
+h1{margin:.5em auto .6em;height:57px;overflow:hidden;width:360px;background:transparent url("/img/pupperazzi.png") no-repeat left top;font:normal 3em/1 sans-serif;text-align:center;text-indent:100%;white-space:nowrap}
 a,a:link,a:visited{color:#bfaa82}
 .link-em,.link-em:link,.link-em:visited{color:#eee8dd}
 .cover{left:60px;position:absolute;top:40px}
