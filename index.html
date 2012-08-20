@@ -10,9 +10,12 @@
   <link href="pupperazzi.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Pupperazzi</h1>
+  <header role="banner">
+    <h1>Pupperazzi</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </header>
 
-  <form action="http://elizabethandjane.us2.list-manage.com/subscribe/post?u=15fb311a76d14dd5ea4583a5d&amp;id=15463b67e1" method="post" accept-charset="utf-8">
+  <form role="main" action="http://elizabethandjane.us2.list-manage.com/subscribe/post?u=15fb311a76d14dd5ea4583a5d&amp;id=15463b67e1" method="post" accept-charset="utf-8">
     <div>
       <label for="fname">First Name</label>
       <input name="FNAME" id="fname">
@@ -27,6 +30,7 @@
     </div>
     <fieldset>
       <legend>Mailing Address</legend>
+      <p class="why">We’re collecting your mailing address so we can mail you a copy of the magazine.</p>
       <div>
         <label for="addr1">Street Address</label>
         <input maxlength="70" name="MMERGE3[addr1]" id="addr1">
@@ -46,8 +50,14 @@
     </fieldset>
 
     <input type="hidden" name="MMERGE3[country]" value="30">
-    <button type="submit">Subscribe</button>
+    <div class="button-group">
+      <button type="submit">Subscribe</button>
+    </div>
   </form>
+
+  <footer role="contentinfo">
+    <p>© <a href="http://elizabethandjane.ca" title="Funky and fantastic pet photography for cute critters">elizabeth&amp;jane photography</a></p>
+  <footer>
 
 </body>
 </html>
